@@ -1,0 +1,45 @@
+{
+    "Front-a-Back": {
+        "tipoSector": "string",
+        "direccion": "string",
+        "area": "double; metros",
+        "tipoTecho": "string",
+        "tipoMaterial": "string",
+        "poligonos": [
+            {
+                "area": "double; metros",
+                "puntos": [
+                    {
+                        "lat": "double",
+                        "lon": "double"
+                    },
+                    {
+                        "lat": "double",
+                        "lon": "double"
+                    }
+                ]
+            },
+            {
+                "area": "double; metros",
+                "puntos": [
+                    {
+                        "lat": "double",
+                        "lon": "double"
+                    },
+                    {
+                        "lat": "double",
+                        "lon": "double"
+                    }
+                ]
+            }
+        ],
+        "arrayConsumoMensual": "double",
+        "diasActividad": "integer",
+        "perfilUso": "string"
+    },
+    "Back-a-Front": {
+        "potenciaOptima": "double", 
+        "precioPanel": "double", 
+        "netoAnualMax": "double"
+    }
+}
