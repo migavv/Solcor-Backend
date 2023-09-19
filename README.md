@@ -16,7 +16,7 @@ Este proyecto consiste en una API REST desarrollada en Node.js para Solcor, una 
 
 ## Uso de la Funcionalidad Avanzada
 
-Solcor puede aprovechar la funcionalidad avanzada de la API a través de la [página de consulta](https://paginafinal.com/api/consultar), que utiliza el método POST para enviar información crucial, incluyendo:
+Solcor puede aprovechar la funcionalidad avanzada de la API, que utiliza el método POST para enviar información crucial, incluyendo:
 
 - `potenciaOptima`: Potencia óptima a instalar.
 - `netoAnualMax`: Generación máxima de energía teniendo en cuenta el ahorro por autoconsumo y la pérdida por exceso mensual.
