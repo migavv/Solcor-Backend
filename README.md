@@ -12,6 +12,8 @@ Este proyecto consiste en una API REST desarrollada en Node.js para Solcor, una 
 
 - **Consulta Avanzada**: La API ofrece una funcionalidad adicional al permitir a Solcor realizar consultas avanzadas para determinar la potencia óptima a instalar y la generación máxima de energía. Estos cálculos se basan en factores como el tipo de sector, la ubicación, el tipo de techo, el material utilizado y otros parámetros relevantes.
 
+- **Cálculo de Potencia Óptima**: La API incorpora un algoritmo avanzado de cálculo de potencia óptima para la instalación de paneles solares. Este algoritmo tiene en cuenta factores como el consumo mensual, la radiación solar y el rendimiento de los paneles para determinar la potencia más eficiente a instalar.
+
 ## Uso de la Funcionalidad Avanzada
 
 Solcor puede aprovechar la funcionalidad avanzada de la API a través de la [página de consulta](https://paginafinal.com/api/consultar), que utiliza el método POST para enviar información crucial, incluyendo:
@@ -27,6 +29,22 @@ Al interactuar con la página de consulta, la API proporciona respuestas detalla
 
 Esto permite a Solcor realizar cálculos precisos y obtener estimaciones de precios actualizadas basadas en datos específicos de cada cliente.
 
+## Cálculo de Potencia Óptima
+
+La API incluye un algoritmo avanzado para calcular la potencia óptima a instalar en las instalaciones solares. Este cálculo tiene en cuenta diversos factores, incluyendo:
+
+- **Consumo Mensual**: La API utiliza datos de consumo mensual proporcionados por el cliente para determinar la cantidad de energía que se necesita generar.
+
+- **Radiación Solar**: Se considera la radiación solar promedio por mes para estimar la generación de energía esperada.
+
+- **Rendimiento de los Paneles**: Se tiene en cuenta el rendimiento de los paneles solares en condiciones específicas.
+
+- **Ahorro por Autoconsumo**: Se calcula el ahorro estimado por el uso de paneles solares, considerando el autoconsumo de la energía generada.
+
+- **Pérdida por Exceso**: Se evalúa la pérdida estimada debido a la generación excesiva de energía.
+
+Estos factores se combinan para determinar la potencia óptima de la instalación de paneles solares, lo que resulta en estimaciones de precios precisas y eficientes.
+
 ## Ventajas
 
 - **Optimización de Recursos**: Solcor puede utilizar la API para gestionar sus clientes de manera eficiente, lo que ahorra tiempo y recursos en la administración manual de registros.
@@ -36,6 +54,7 @@ Esto permite a Solcor realizar cálculos precisos y obtener estimaciones de prec
 - **Mejora de la Experiencia del Cliente**: Los clientes de Solcor pueden recibir estimaciones de precios personalizadas de manera rápida, lo que mejora la satisfacción del cliente y fomenta la toma de decisiones informadas.
 
 - **Escalabilidad**: La API está diseñada para manejar un gran volumen de datos y puede escalarse fácilmente para adaptarse al crecimiento de Solcor.
+
 
 
 
