@@ -6,7 +6,7 @@ Este proyecto consiste en una API REST desarrollada en Node.js para Solcor, una 
 
 - **Gestión de Clientes**: La API permite a Solcor registrar y mantener registros actualizados de sus clientes, incluyendo información personal y detalles específicos de sus requerimientos de instalación.
 
-- **Estimación de Precios Personalizada**: Utilizando los datos del cliente y los parámetros de instalación, la API genera estimaciones de precios altamente precisas para proyectos de paneles solares, lo que facilita la toma de decisiones informadas.
+- **Estimación de Precios Personalizada**: Utilizando los datos del cliente y los parámetros de instalación, la API genera estimaciones de precios para proyectos de paneles solares, lo que facilita la toma de decisiones informadas.
 
 - **Integración con MySQL**: La API se conecta de manera eficiente con una base de datos MySQL para el almacenamiento de datos de clientes y registros de estimaciones, garantizando la seguridad y la disponibilidad de los datos.
 
